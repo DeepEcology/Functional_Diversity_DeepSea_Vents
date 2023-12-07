@@ -20,7 +20,7 @@ library("abind") # arrays
 # Import dataset and data preparation
 #####################################
 
-sfDVent_sp <- read.csv("~/Dropbox/UVic/Data/sfDVent_sp_JA.csv", row.names=1, sep=";")
+sfDVent_sp <- read.csv() # Import sfDVent_sp_JA.csv dataset
 
 sp_comm <- as.data.frame(t(sfDVent_sp[,c(7:23)])) # species occurrences data
 sp_traits <- sfDVent_sp[,c(1:6)] # species traits data
