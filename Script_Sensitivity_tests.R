@@ -8,7 +8,7 @@
 ###############################################################################################
 
 # Set directory
-setwd("~/Dropbox/UVic/Data")
+setwd()
 
 # Load R packages
 library("mFD") # functional trait analyses
@@ -22,7 +22,7 @@ library("abind") # arrays
 ####################################################
 
 # Import dataset and data preparation
-sfDVent_sp <- read.csv("~/Dropbox/UVic/Data/sfDVent_sp_JA.csv", row.names=1, sep=";")
+sfDVent_sp <- read.csv() # Import sfDVent_sp_JA.csv dataset
 sp_traits_sen <- sfDVent_sp[,c(1:6)] # species traits
 sp_comm <- as.data.frame(t(sfDVent_sp[,c(7:23)])) # species occurrences data
 trait_info <- data.frame(trait_name = colnames(sp_traits_sen), trait_type = c("O","O","N","O","O","N")) # Trait info data
