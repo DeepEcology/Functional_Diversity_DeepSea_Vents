@@ -1,2 +1,3 @@
 # Functional Diversity of World's Deep-Sea Vents
-Global patterns of functional ecology of deep-sea hydrothermal vents
+This repository contains the required R code and data files to produce the analyses and plots in:
+‘High functional vulnerability across deep-sea hydrothermal vent communities’ Joan M. Alfaro-Lucas, Abbie S. A. Chapman, Verena Tunnicliffe and Amanda E. Bates.
